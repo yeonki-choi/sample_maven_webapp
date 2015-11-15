@@ -1,0 +1,4 @@
+applications:
+- name: sample-maven-webapp
+  memory: 512M
+  path: target/sample-maven-webapp
