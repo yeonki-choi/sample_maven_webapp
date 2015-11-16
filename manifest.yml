@@ -1,6 +1,6 @@
 applications:
 - name: sample-maven-webapp
-  memory: 512M
+  memory: 700M
   path: target/sample-maven-webapp
 url:
 - ${name}.app.helionit.es
