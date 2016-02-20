@@ -2,6 +2,6 @@ applications:
 - name: sample-maven-webapp
   memory: 700M
   path: target/sample-maven-webapp
-  buildpack: https://github.com/hpcloud/heroku-buildpack-java.git
+  #buildpack: https://github.com/hpcloud/heroku-buildpack-java.git
   url:
   - ${name}.app.helionit.io
