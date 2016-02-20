@@ -2,5 +2,6 @@ applications:
 - name: sample-maven-webapp
   memory: 700M
   path: target/sample-maven-webapp
+  buildpack: https://github.com/dmikusa-pivotal/cf-maven-buildpack
   url:
   - ${name}.app.helionit.io
