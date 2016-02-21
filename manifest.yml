@@ -2,6 +2,6 @@ applications:
 - name: sample-maven-webapp
   memory: 500M
   path: target/sample-maven-webapp
-  buildpack: https://github.com/cloudfoundry/java-buildpack.git#3bd15e1
+  #buildpack: https://github.com/cloudfoundry/java-buildpack.git#3bd15e1
   url:
   - ${name}.app.helionit.io
